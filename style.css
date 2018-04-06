@@ -65,14 +65,9 @@ h1 {
     font-size: 2em;
 }
 
-h2 {
+h2, h3 {
 	font-size: 1.2em;
 }
-
-h3 {
-	font-size: 1.3em;
-}
-
 
 #heading {	
 	margin: 0 auto;
@@ -213,6 +208,10 @@ article h2, article h3, li h2, li h3 {
     padding: 5px 0;
     margin-bottom: 3px;
 	font-family: 'Arvo', 'Playfair Display', serif;
+}
+
+article h3 {
+	font-size: 1.3em;
 }
 
 article h4{
