@@ -81,7 +81,7 @@ h2, h3 {
     margin-top: -26px;
     border: 2px solid whitesmoke;
     border-right: 0;
-    padding: 0 10px;
+    padding: 0 8px;
 }
 
 #resume-left {
@@ -91,7 +91,7 @@ h2, h3 {
     margin-top: -26px;
     border: 2px solid whitesmoke;
     border-left: 0;
-    padding: 0 10px;
+    padding: 0 8px;
 }
 
 #resume-left a{
@@ -251,7 +251,7 @@ small {
 
 em {
 	font-style: normal;
-	background: #d0c0c1;
+	background: #e6ddde;
 }
 
 .detail-header{
@@ -268,6 +268,28 @@ em {
     max-width: 300px;
 }
 
+table {
+/* 	width: 640px;  */
+	margin: auto auto;
+	border-collapse: collapse; 
+    border-spacing: 0;
+}  
+td, th {
+	border: 1px solid #CCC;
+    height: 30px;	
+	padding: 0 7px;
+}
+
+th {
+	background: #F3F3F3;
+    font-weight: bold;
+}
+
+td{
+	background: #FAFAFA;
+    text-align: center;
+}
+	
 /*================================================
 Start link underline
 ==================================================*/
