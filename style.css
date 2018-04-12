@@ -15,13 +15,13 @@ a {
 }
 
 a.detail-link{
+	padding: 0 2px;
 	text-decoration: underline;
 	text-decoration-color: #58b0ff;	
 }
 
 a.detail-link:hover {	
 	background-color: #a4d4ff;
-	padding: 0 2px;
 /* 	padding: 0 5px; */
 }
 
@@ -154,7 +154,7 @@ p.important:hover  a, p.important a:hover{
 } */
 
 main {    
-    width: 80%;   
+    width: 70%;   
     margin: 0 auto;
 }
 
@@ -175,7 +175,9 @@ ul.book-list li{
 }
 
 .important{	
-	background: #d6ebf2;
+/* 	background: #d6ebf2; */
+/*     background: #F0E8E5; */
+	background: #dae3ef;
 	padding: 5px 10px 3px 10px;
 }
 
@@ -199,14 +201,14 @@ blockquote.important{
 	position: relative;
 }
 
-blockquote.important p:first-of-type{
+blockquote.important p, blockquote.important h4{
 	position: relative;
 	border: .3rem solid ghostwhite;
+    font: 1.1em 'Arvo', sans-serif; 
 	text-align: center;
 	padding: 10px;
 	margin-bottom: 10px;	
     z-index: 1;
-    font-size: 1.1em;
 }
 
 blockquote.important:before {
@@ -222,7 +224,11 @@ blockquote.important:before {
     left: 7px;
 }
 
-p.author{
+blockquote p.author{
+	border: none;
+    font: 1em 'Arvo', sans-serif; 
+/* 	text-transform: uppercase; */
+	text-align: left;
 	margin-top: 0;
 	padding-left: 20px;
 }
