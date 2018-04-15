@@ -9,7 +9,7 @@ body {
     font: 16px "Libre Franklin", "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;    
 }
 
-ul {
+ul, ol {
     list-style-type: none;
     padding: 0;
 }
@@ -82,6 +82,11 @@ h2, h3 {
 	text-align: center;
     padding: 5px 0;
     margin-bottom: 3px;
+}
+
+h3.author-name {
+	max-height: 23px;
+    overflow: hidden;
 }
 
 #heading {	
@@ -186,9 +191,10 @@ ul.book-list li{
 	padding: 5px 10px 3px 10px;
 }
 
-.important ul {
+.important ul, .important ol {
 	border: .4rem solid ghostwhite;
-	margin: 20px 10px 10px;
+	margin: 15px 10px 10px;
+	padding: 7px 0;
 } 
 
 .important p{
@@ -208,7 +214,7 @@ blockquote.important{
 
 blockquote.important p, blockquote.important h4{
 	position: relative;
-	border: .3rem solid ghostwhite;
+/* 	border: .3rem solid ghostwhite; */
     font: 1.1em 'Arvo', sans-serif; 
 	text-align: center;
 	padding: 10px;
@@ -232,10 +238,15 @@ blockquote.important:before {
 blockquote p.author{
 	border: none;
     font: 1em 'Arvo', sans-serif; 
-/* 	text-transform: uppercase; */
+    text-transform: uppercase;
 	text-align: left;
 	margin-top: 0;
+	padding-top: 0;
 	padding-left: 20px;
+}
+
+blockquote p.author cite{
+	text-transform: none;
 }
 
 article div:first-of-type, article h2:first-of-type{
@@ -250,6 +261,7 @@ article {
 article header, li header {
     color: white;
     background-color: #39F;
+	max-height: 33px;
 }
 
 article p, li p {
@@ -310,8 +322,15 @@ em {
 	margin: 20px auto;
 }
 .detail-list li{
-    padding: 5px 0;
+    padding: 5px 5px 0 8px;
     margin-left: 30px;
+/* 	border-left: 2px solid #d0c0c1; */
+}
+
+ul.detail-list li:before{
+	font-family: 'FontAwesome';
+    content: '\f006';
+	margin:0 5px 0 -15px;
 }
 
 .detail-img{
