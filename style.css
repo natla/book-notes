@@ -261,7 +261,8 @@ article {
 article header, li header {
     color: white;
     background-color: #39F;
-	max-height: 33px;
+	max-height: 53px;
+    min-height: 53px;
 }
 
 article p, li p {
