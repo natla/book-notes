@@ -318,6 +318,11 @@ em {
 	padding: 0px 2px;
 }
 
+em.violet {
+	background: none;
+	color: darkviolet;
+}
+
 .detail-header{
 	max-width: 300px;
 	margin: 20px auto;
