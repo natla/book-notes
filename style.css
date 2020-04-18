@@ -9,7 +9,7 @@ body {
     font: 16px "Libre Franklin", "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;    
 }
 
-ul, ol {
+ul {
     list-style-type: none;
     padding: 0;
 }
@@ -142,27 +142,6 @@ p.centered {
     padding-bottom: 5px;
 }
 
-/* p.important {
-	width: 80%;
-	margin: auto auto;	
-	background-color: #624245;
-	margin-top: 5px;
-	margin-bottom: 14px;
-	padding: 2px 0;
-} 
-
-p.important a {
-	color: aliceblue;
-}
-
-p.important:hover {
-	background-color: aliceblue;		
-}
-
-p.important:hover  a, p.important a:hover{
-	color: #624245;		
-} */
-
 main {    
     width: 80%;   
     margin: 0 auto;
@@ -186,7 +165,7 @@ ul.book-list li{
 
 .important{	
 /* 	background: #d6ebf2; */
-/*     background: #F0E8E5; */
+/*  background: #F0E8E5; */
 	background: #dae3ef;
 	padding: 5px 10px 3px 10px;
 }
@@ -206,6 +185,11 @@ ul.book-list li{
     text-align: center;
 }
 
+p.important {
+    color: #f00aa3;
+    background-color: ghostwhite;
+}
+
 blockquote.important{
 	margin: auto 0;
 	padding-top: 20px;
@@ -215,10 +199,9 @@ blockquote.important{
 blockquote.important p, blockquote.important h4{
 	position: relative;
 /* 	border: .3rem solid ghostwhite; */
-    font: 1.1em 'Arvo', sans-serif; 
-	text-align: center;
-	padding: 10px;
-	margin-bottom: 10px;	
+    font: 1.05em 'Arvo', sans-serif;
+	padding: 1em;
+	margin: 28px 20px 10px;
     z-index: 1;
 }
 
@@ -249,7 +232,7 @@ blockquote p.author cite{
 	text-transform: none;
 }
 
-article div:first-of-type, article h2:first-of-type{
+article div:first-of-type, article h2:first-of-type, article h3:first-of-type {
 	margin-top: 30px;
 }
 
@@ -278,9 +261,9 @@ article h3 {
 }
 
 article h4 {
-/* 	text-align: center; */
-    margin: 10px 7px 7px;
+    margin: 16px 7px 7px;
 	font: 1.2em 'Arvo', 'Playfair Display', serif;
+	text-transform: capitalize;
 }
 
 hr {   
@@ -314,7 +297,8 @@ small {
 
 em {
 	font-style: normal;
-	background: #d6ebf2;
+	background: ghostwhite;
+	color: #f00aa3;
 	padding: 0px 2px;
 }
 
