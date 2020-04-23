@@ -298,7 +298,8 @@ small {
 em {
 	font-style: normal;
 	background: ghostwhite;
-	color: #f00aa3;
+/* 	color: #f00aa3; */
+    color: darkviolet;
 	padding: 0px 2px;
 }
 
