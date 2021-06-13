@@ -197,11 +197,11 @@ blockquote.important{
 }
 
 blockquote.important p, blockquote.important h4{
-	position: relative;
-/* 	border: .3rem solid ghostwhite; */
+    position: relative;
     font: 1.05em 'Arvo', sans-serif;
-	padding: 1em;
-	margin: 28px 20px 10px;
+    padding: 1em;
+    margin: 28px 20px 10px;
+    text-transform: none;
     z-index: 1;
 }
 
