@@ -81,7 +81,7 @@ h1 {
 }
 
 h2, h3 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-align: center;
   padding: 5px 0;
   margin-bottom: 3px;
@@ -263,6 +263,10 @@ article header, li header {
   background-color: #39F;
   max-height: 53px;
   min-height: 53px;
+}
+
+li header a {
+  color: white;
 }
 
 article p, li p {
