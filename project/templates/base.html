@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}{% endblock %} | Natalia Malkovska Book Notes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,700" rel="stylesheet" type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 650px)" href="css/under650.css">
+  <link rel="shortcut icon" type="image/png" href="images/mustache-th-pink-32.png">
+  <script src="https://use.fontawesome.com/d5f325af29.js"></script>
+</head>
+
+<body>
+  <header>
+    <div id="heading">
+      <h1>Nat's Book Notes</h1>
+      <hr />
+      <h2></h2>
+    </div>
+  </header>
+
+  <div class="container">
+    <main>
+      {% block content %}
+      {% endblock %}
+      <footer>
+        <hr />
+        <small>Natalia Malkovska <span class="date">2015</span>
+        </small>
+      </footer>
+    </main>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>

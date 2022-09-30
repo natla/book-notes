@@ -1,0 +1,28 @@
+# Config file for a Complexity project
+
+# Directories are relative to current (project) dir
+templates_dir: "templates"
+assets_dir: "static"
+context_dir: "context"
+output_dir: "../docs"
+
+# List of templates that should not be expanded to pretty-format URLs
+unexpanded_templates:
+ - "accidental-creative.html"
+ - "law-and-promise.html"
+ - "deep-work.html"
+ - "principles.html"
+ - "daring-greatly.html"
+ - "creativity.html"
+ - "hero.html"
+ - "so-good.html"
+ - "ignore-everybody.html"
+ - "willpower.html"
+ - "renaissance.html"
+ - "zen-motorcycle.html"
+ - "now-power.html"
+ - "time.html"
+ - "quiet.html"
+ - "obstacle.html"
+ - "coaching-habit.html"
+ - "great-work.html"

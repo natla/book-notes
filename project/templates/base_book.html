@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+  <img class="detail-img" src="images/covers/{{ self._TemplateReference__context.name.split('.')[0] }}.jpg" />
+  {% block inner_content %}
+  {% endblock %}
+</article>
+{% endblock %}

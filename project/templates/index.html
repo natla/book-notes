@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<ul class="book-list">
+  {% for book in books %}
+  <li>
+    <header>
+      <h2><a href="{{ book.slug }}.html">{{ book.title }}</a></h2>
+    </header>
+    <h3 class="author-name">{{ book.author }}</h3>
+    <a href="{{ book.slug }}.html" class="book-notes-link underline-magical">
+      <img src="images/covers/{{ book.slug }}.jpg" />
+      <p class="centered">{{ book.year }}</p>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+<!--         <li>
+            <header><h2><a href="books/great-work.html">Do More Great Work</a></h2></header>
+            <h3 class="author-name">Michael Bungay Stanier</h3>
+			<a href="books/great-work.html" class="book-notes-link underline-magical">
+			    <img src="images/covers/great-work.png"/>
+			<p class="centered">2010</p>
+			</a>
+        </li>   -->
+{% endblock %}
